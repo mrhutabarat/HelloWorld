@@ -1,12 +1,19 @@
 package co.uk.leonardushutabarat;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		
-		System.out.println("Hello World!");
-		System.out.println("My Name is Leo");
-		System.out.println("To Test GitHub");
+	
+		System.setProperty("webdriver.edge.driver", "C:\\Temp\\msedgedriver.exe");
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.google.co.uk/");
+		driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
+		System.out.println(driver.getTitle());
 
 	}
 
