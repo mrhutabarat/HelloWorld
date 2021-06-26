@@ -15,6 +15,7 @@ public class HelloWorld {
 		driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
 		System.out.println(driver.getTitle());
 		System.out.println("Example of Fetch");
+		System.out.println("Example of Fetch 2");
 
 	}
 
