@@ -17,6 +17,8 @@ public class HelloWorld {
 		System.out.println("Example of Fetch");
 		System.out.println("Example of Fetch 2");
 		System.out.println("Example of Fetch 3");
+		System.out.println("Example of Fetch 4");
+		System.out.println("Example of Fetch 5");
 
 	}
 
