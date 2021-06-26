@@ -14,6 +14,11 @@ public class HelloWorld {
 		driver.get("https://www.google.co.uk/");
 		driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
 		System.out.println(driver.getTitle());
+		System.out.println("Example of Fetch");
+		System.out.println("Example of Fetch 2");
+		System.out.println("Example of Fetch 3");
+		System.out.println("Example of Fetch 4");
+		System.out.println("Example of Fetch 5");
 
 	}
 
