@@ -16,6 +16,7 @@ public class HelloWorld {
 		System.out.println(driver.getTitle());
 		System.out.println("Example of Fetch");
 		System.out.println("Example of Fetch 2");
+		System.out.println("Example of Fetch 3");
 
 	}
 
