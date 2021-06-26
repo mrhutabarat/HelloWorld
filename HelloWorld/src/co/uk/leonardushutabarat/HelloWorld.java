@@ -20,6 +20,7 @@ public class HelloWorld {
 		System.out.println("Example of Fetch 4");
 		System.out.println("Example of Fetch 5");
 		System.out.println("Example of Push 6");
+		System.out.println("Example of Fetch 7");
 
 	}
 
